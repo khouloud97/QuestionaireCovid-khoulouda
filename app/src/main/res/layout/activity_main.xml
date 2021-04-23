@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qqqqqqqqqqqq"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="105dp" />
+
+        <TextView
+            style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:text="Est-ce que vous avez une toux récente ? "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:text="Toux récente signifie une toux que vous n'aviez pas avant ou si vous toussez de manière chronique, que votre toux s'est empirée."
+            android:textAlignment="center"
+            android:textColor="#737273"
+
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/radio">
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:layout_width="match_parent"
+                android:layout_height="83dp"
+                android:text="NON"
+                android:textColor="#461D36"
+
+                android:textSize="30sp" />
+
+            <RadioButton
+                android:id="@+id/radioButton"
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:text="OUI"
+                android:textColor="#461D36"
+
+                android:textSize="30sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+            <Button
+                android:id="@+id/btn_s1"
+                android:layout_width="match_parent"
+                android:layout_height="86dp"
+
+                android:text="Suivant"
+                android:background="#81A1BEE2"
+                android:textColor="#FA090808"/>
+
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaaa"
+    tools:context=".Call">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/exit"
+            android:layout_width="442dp"
+            android:layout_height="78dp"
+            android:text="Exit"
+            android:textColor="#FAF00146"
+            android:textColorHighlight="#A6E7B4B4" />
+
+        <Space
+            android:layout_width="327dp"
+            android:layout_height="355dp" />
+
+        <Button
+            android:id="@+id/call"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="417dp"
+            android:layout_height="216dp"
+            android:background="@color/color_white"
+            android:onClick="sendMessage"
+            android:text="Call 190"
+            android:textColor="#8A0909"
+            android:textColorHint="#E91E63"
+            android:textColorLink="#F44336"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

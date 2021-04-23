@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "995581278830",
+    "project_id": "questionnairecovid-d2c02",
+    "storage_bucket": "questionnairecovid-d2c02.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:995581278830:android:01f7372b5a37a02008c47f",
+        "android_client_info": {
+          "package_name": "com.example.prooject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "995581278830-7ubc0ckvskpb77mg5tc5benm9ihaoebp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXzWeXJ75h9TQaAHzZFKmkkn7GyW7UA-0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "995581278830-7ubc0ckvskpb77mg5tc5benm9ihaoebp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
