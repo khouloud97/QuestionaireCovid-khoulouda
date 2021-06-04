@@ -42,6 +42,7 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
         <activity android:name=".Evax"></activity>
+        <activity android:name=".MainActivity4" />
         <activity android:name=".Good" />
         <activity android:name=".Call" />
         <activity android:name=".Q8" />
@@ -51,7 +52,6 @@
         <activity android:name=".Q4" />
         <activity android:name=".Q3" />
         <activity android:name=".Q2" />
-        <activity android:name=".MainActivity4" />
         <activity android:name=".Page1" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity" />

@@ -1,17 +1,13 @@
 package com.example.prooject;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.app.ActivityCompat;
-import androidx.core.app.NotificationCompat;
-
-import android.Manifest;
 import android.content.Intent;
-import android.content.pm.PackageManager;
 import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Call extends AppCompatActivity {
 private Button button ;
@@ -29,11 +25,13 @@ private Button button ;
 
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                Intent intent = new Intent(Intent.ACTION_DIAL);
-                intent.setData(Uri.parse("tel:190")); mediaPlayer.stop();
+                String number = "99779192";
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:" +number));
+                startActivity(intent);
+                mediaPlayer.stop();
 
-               startActivity(intent);
-            }
+             }
         });
 
         exit =(Button) findViewById(R.id.exit);
@@ -50,6 +48,7 @@ private Button button ;
             }
         });
     }
+
 }
 
 

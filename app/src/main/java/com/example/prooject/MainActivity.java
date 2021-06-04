@@ -58,8 +58,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 Intent i = new Intent(this ,Q2.class);
                 i.putExtra("score",score);
-                startActivity(i);                    finish();
-
+                startActivity(i);
 
 
         }

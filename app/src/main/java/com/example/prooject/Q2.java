@@ -48,7 +48,8 @@ public class Q2 extends AppCompatActivity  implements View.OnClickListener{
 
                 Intent i = new Intent(this,Q3.class);
                 i.putExtra("score",score);
-                startActivity(i);                    finish();
+                startActivity(i);
+                finish();
 
 
         }

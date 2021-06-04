@@ -14,7 +14,7 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="129dp" />
+            android:layout_height="119dp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -30,10 +30,14 @@
             android:layout_height="match_parent"
             android:id="@+id/radio" >
 
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="29dp" />
+
             <RadioButton
                 android:id="@+id/radioButton"
                 android:layout_width="match_parent"
-                android:layout_height="96dp"
+                android:layout_height="68dp"
                 android:text="OUI"
                 android:textColor="#461D36"
                 android:textSize="30sp" />
@@ -45,7 +49,7 @@
             <RadioButton
                 android:id="@+id/radioButton2"
                 android:layout_width="match_parent"
-                android:layout_height="102dp"
+                android:layout_height="54dp"
                 android:text="NON"
                 android:textColor="#461D36"
                 android:textSize="30sp" />

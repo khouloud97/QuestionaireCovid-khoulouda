@@ -8,15 +8,16 @@ import android.widget.ImageButton;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Page1 extends AppCompatActivity {
-ImageButton info;
+    ImageButton info;
     ImageButton map;
     ImageButton btn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_page1);
 
-        btn = (ImageButton)findViewById(R.id.imageButton);
+        btn = (ImageButton) findViewById(R.id.imageButton);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -27,8 +28,7 @@ ImageButton info;
         });
 
 
-
-        info=(ImageButton)findViewById(R.id.info);
+        info = (ImageButton) findViewById(R.id.info);
         info.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,18 +38,16 @@ ImageButton info;
         });
 
 
-        map=(ImageButton)findViewById(R.id.map);
+        map = (ImageButton) findViewById(R.id.map);
         map.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent p= new Intent(Page1.this, MainActivity4.class);
-                startActivity(p);                    finish();
+                Intent p = new Intent(Page1.this, MainActivity4.class);
+                startActivity(p);
 
             }
         });
 
 
-
-        }
-
     }
+}

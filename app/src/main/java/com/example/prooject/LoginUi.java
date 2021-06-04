@@ -76,7 +76,7 @@ public class LoginUi extends AppCompatActivity {
                             Intent intent = new Intent(LoginUi.this, LoginActivity.class);
                             startActivity(intent);
                         } else {
-                            Toast.makeText(getApplicationContext(), "Registration failed! Please try again later", Toast.LENGTH_LONG).show();
+                            Toast.makeText(getApplicationContext(), "Registration failed! PASSWORD MUST BE LONG", Toast.LENGTH_LONG).show();
                             progressBar.setVisibility(View.GONE);
                         }
                     }
